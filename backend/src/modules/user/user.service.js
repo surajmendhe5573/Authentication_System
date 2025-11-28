@@ -11,7 +11,7 @@ class UserService {
   }
 
   async getById(id) {
-    return await USER_MODEL.findById(id);
+    return await USER_MODEL.findById(id).select("-password");;
   }
 }
 
