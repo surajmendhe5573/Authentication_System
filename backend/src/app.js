@@ -41,7 +41,7 @@ app.get('/contact', (req, res) => {
 })
 
 app.get('/cicd', (req, res) => {
-     res.send('This is cicd pipeline !');
+     res.send('This is cicd pipeline :)');
 })
 
 app.get('/msg', (req, res) => {
